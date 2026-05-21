@@ -8,9 +8,15 @@ Run `data_preparation_traffic_sign.sh` (see below) to load and process the data.
 ## Example bash commands
 
 - Refresh database, download new data for Berlin, extract data for Neukölln suburb before data import and processing:
-```./data_preparation_traffic_sign.sh -r -d https://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf -e 13.3924,52.4543,13.4859,52.5009
+```
+./data_preparation_traffic_sign.sh -r -d https://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf -e 13.3924,52.4543,13.4859,52.5009
 ```
 
 - Use an existent osm extract for data import and processing
-```./data_preparation_traffic_sign.sh -d osm/extract_berlin-latest.osm.pbf
 ```
+./data_preparation_traffic_sign.sh -d osm/extract_berlin-latest.osm.pbf
+```
+
+## Example visualisation in QGIS
+
+<img width="1119" height="858" alt="grafik" src="https://github.com/user-attachments/assets/52d97fa6-60c9-4959-bf5a-e802f4c60465" />
